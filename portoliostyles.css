@@ -1,32 +1,106 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
-</style>
+/*Home*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');>
 
+html {
+font-family:'Noto Sans JP', sans-serif; 
+width: 100%;
+color: black;
+background: #fff;
+}
 header {
     height: 70px;
-    text
 }
 nav { 
     float: right;
 }
 footer {
     text-align: center;
-    background-color: #b392ac;
+    background-color: #fff;
     padding: 10px;
     color: #fff;
+    text-decoration: none;
+}
+footer p
+{
+width = 100%;
+background-color: #b392ac;
 }
 #linkedin {
     display: inline-block;
-    height: 10px;
-    width: 10px;
+    height: 50px;
+    width: 50px;
 }
 #mainimage {
     display: inline-block;
-    height: auto;
+    height: 250px;
     width: 100%;
 }
 #github {
     display: inline-block;
-    height: 10px;
-    width: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+/*About Me*/
+
+/*Portfolio*/
+
+/*Contact*/
+/*Responsiveness*/  
+body {
+    background-color: #475F94;
+    color: #fff;
+    font-family: "", sans-serif;
+}
+
+header {
+    border-bottom: 2px solid #FDDC5C;
+    text-align: center;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #FDDC5C;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #FA4224;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #FDDC5C;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid #FA4224;
+    background-color: #FA4224;
+    color: #FFF;
+}
+
+.form-item button {
+    width: 100px;
 }
