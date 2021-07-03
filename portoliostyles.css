@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+</style>
+
 header {
     height: 70px;
 }
@@ -10,7 +14,17 @@ footer {
     padding: 10px;
     color: #fff;
 }
-#image1 {
+#linkedin {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+#mainimage {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+#github {
     display: inline-block;
     height: 10px;
     width: 10px;
