@@ -8,16 +8,23 @@
         <link rel="stylesheet" href="portoliostyles.css">
     </head>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="Portfolio.html">Portfolio</a>
-        <a href="Contact.html">Contact</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
     </nav>
+<main>
     <body>
         <header>
-            <h1>Get in touch!</h1>
+            <h1>Get in Contact!</h1>
         </header>
-        <form action="https://formspree.io/f/mwkabdle" method="post">
+        <div id=h2text>
+        <h2>I'd love to hear from you!</h2>
+        </div>
+        <section id="contactsection">
+        <form action="https://formspree.io/f/xzbyvkqe" method="post">
             <div class="form-item">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name">
@@ -26,6 +33,7 @@
                 <label for="mail">Email</label>
                 <input type="email" id="mail" name="email">
             </div>
+            </div>
             <div class="form-item">
                 <label for="message">Message</label>
                 <textarea id"message" name="message" name="email"></textarea>
@@ -33,6 +41,7 @@
             <div class="form-item">
                 <button type="submit">Send!
                 </button>
-        </form>
+            </section> 
+         </form>
     </body>
 </html>
