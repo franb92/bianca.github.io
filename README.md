@@ -6,5 +6,5 @@
 - I enjoy sunsets and filling my camera roll with flowers and plants
 
 ### Follow me on socials:
-[<img align="left" alt="linkedin" width="22px" src="https://www.linkedin.com/in/bianca-franettovich-a826a2203"/][website]
-[<img align="left" alt="github" width="22px" src="https://github.com/franb92"/][website]
+<img align="left" alt="linkedin" width="22px" src="https://www.linkedin.com/in/bianca-franettovich-a826a2203"/][website]
+<img align="left" alt="github" width="22px" src="https://github.com/franb92"/][website]
